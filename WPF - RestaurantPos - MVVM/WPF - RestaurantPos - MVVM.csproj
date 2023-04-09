@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>WPF___RestaurantPos___MVVM</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\door.png" />
+    <None Remove="Images\menu.png" />
+    <None Remove="Images\restaurant.png" />
+    <None Remove="Images\waiter.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\door.png" />
+    <Resource Include="Images\menu.png" />
+    <Resource Include="Images\restaurant.png" />
+    <Resource Include="Images\waiter.png" />
+  </ItemGroup>
+
+</Project>
